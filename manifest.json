@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "ttttest",
+    "version": "1.1",
+
+    "description": "test shit",
+
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "background": {
+      "scripts": ["bg.js"]
+    },
+    "host_permissions": [
+        "https://picsum.photos/*"
+    ]
+}
+
